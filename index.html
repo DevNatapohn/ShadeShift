@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ShadeShift - เลือกและดูเฉดสี</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="lang-switcher" role="group" aria-label="สลับภาษา">
+                <button id="btn-th" aria-pressed="true" aria-label="เลือกภาษาไทย" class="active">ไทย</button>
+                <button id="btn-en" aria-pressed="false" aria-label="Select English language">EN</button>
+            </div>
+            <h1 id="title">เลือกสีหลักที่คุณชอบ</h1>
+        </header>
+
+        <!-- Dropdown เลือกสีหลัก -->
+        <select id="colorDropdown" aria-label="เลือกสีหลัก">
+            <option value="" disabled selected>เลือกสีหลักจากเมนู</option>
+            <option value="black">ดำ</option>
+            <option value="red">แดง</option>
+            <option value="white">ขาว</option>
+            <option value="blue">น้ำเงิน</option>
+            <option value="yellow">เหลือง</option>
+            <option value="green">เขียว</option>
+            <option value="orange">ส้ม</option>
+            <option value="purple">ม่วง</option>
+            <option value="pink">ชมพู</option>
+        </select>
+
+        <div id="shades" aria-live="polite" aria-atomic="true"></div>
+
+        <button id="backBtn" aria-label="ย้อนกลับ" style="display:none;">ย้อนกลับ</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
