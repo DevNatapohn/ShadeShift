@@ -1,4 +1,3 @@
-#Script
 const shadesContainer = document.getElementById('shades');
 const backBtn = document.getElementById('backBtn');
 const title = document.getElementById('title');
