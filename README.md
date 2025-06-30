@@ -25,6 +25,7 @@
 ## 📸 Preview
 
 <img src="./preview.png" alt="ShadeShift Screenshot" width="700"/>
+<img src="./preview_1.png" alt="ShadeShift Screenshot" width="700"/>
 
 ---
 
