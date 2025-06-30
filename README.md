@@ -1,3 +1,4 @@
+#README
 <h1 align="center">🎨 ShadeShift</h1>
 <p align="center">
   A minimal color shade explorer — select a base color and discover its beautiful tones with names and HEX codes.
